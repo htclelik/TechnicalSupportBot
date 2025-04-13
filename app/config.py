@@ -4,6 +4,7 @@ import os
 import tempfile
 
 from dotenv import load_dotenv
+
 # Загружаем переменные из .env
 load_dotenv()
 
@@ -44,8 +45,10 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 LOG_FILE = "bot.log"
 
+# Проверка наличия файла учетных данных Google
 if not os.path.exists(GOOGLE_CREDENTIALS_PATH):
-    raise FileNotFoundError(f"Файл {GOOGLE_CREDENTIALS_PATH} не найден!")
+    raise FileNotFoundError(f"Файл {GOOGLE_CREDENTIALS_PATH} не найден! Проверьте путь или наличие GOOGLE_CREDENTIALS_B64.")
 
+# Проверка обязательных переменных окружения
 if not TELEGRAM_BOT_TOKEN:
     raise EnvironmentError("Не все обязательные переменные окружения установлены!")
