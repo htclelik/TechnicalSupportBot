@@ -1,0 +1,14 @@
+ __pycache__/
+     *.pyc
+
+   .vscode/
+# Игнорируем секретные данные
+app/secrets/
+.env
+*.log
+node_modules/
+secrets/
+.env.example
+   .venv/
+   db.sqlite3
+   .DS_Store

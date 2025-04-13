@@ -1,0 +1,147 @@
+2025-04-07 19:25:22,437 - __main__ - INFO - Запуск бота...
+2025-04-07 19:25:22,437 - __main__ - CRITICAL - Критическая ошибка в asyncio.run(main): name 'start_handler' is not defined
+Traceback (most recent call last):
+  File "/Users/leik.van-23/PycharmProjects/TechnicalSupportBot/app/main.py", line 55, in <module>
+    asyncio.run(main())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/leik.van-23/PycharmProjects/TechnicalSupportBot/app/main.py", line 38, in main
+    setup_dispatcher(dp)
+  File "/Users/leik.van-23/PycharmProjects/TechnicalSupportBot/app/handlers/dispatcher.py", line 16, in setup_dispatcher
+    router.message.register(start_handler, Command("start"))
+                            ^^^^^^^^^^^^^
+NameError: name 'start_handler' is not defined
+2025-04-07 19:26:49,204 - __main__ - INFO - Запуск бота...
+2025-04-07 19:26:49,205 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-07 19:27:02,501 - __main__ - INFO - Запуск polling...
+2025-04-07 19:30:22,120 - __main__ - INFO - Остановка бота...
+2025-04-07 19:30:22,122 - __main__ - INFO - Бот остановлен.
+2025-04-09 20:19:10,343 - __main__ - INFO - Запуск бота...
+2025-04-09 20:19:10,343 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 20:19:12,227 - __main__ - INFO - Запуск polling...
+2025-04-09 20:31:55,548 - __main__ - INFO - Остановка бота...
+2025-04-09 20:31:55,550 - __main__ - INFO - Бот остановлен.
+2025-04-09 20:31:57,095 - __main__ - INFO - Запуск бота...
+2025-04-09 20:31:57,096 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 20:31:58,028 - __main__ - INFO - Запуск polling...
+2025-04-09 20:33:01,463 - __main__ - INFO - Остановка бота...
+2025-04-09 20:33:01,464 - __main__ - INFO - Бот остановлен.
+2025-04-09 21:28:03,398 - __main__ - INFO - Запуск бота...
+2025-04-09 21:28:03,398 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 21:28:04,030 - __main__ - INFO - Запуск polling...
+2025-04-09 21:28:23,411 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-09 21:34:18,133 - __main__ - INFO - Остановка бота...
+2025-04-09 21:34:18,136 - __main__ - INFO - Бот остановлен.
+2025-04-09 21:34:19,697 - __main__ - INFO - Запуск бота...
+2025-04-09 21:34:19,698 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 21:34:20,764 - __main__ - INFO - Запуск polling...
+2025-04-09 22:57:45,441 - __main__ - INFO - Остановка бота...
+2025-04-09 22:57:45,442 - __main__ - INFO - Бот остановлен.
+2025-04-09 22:57:46,979 - __main__ - INFO - Запуск бота...
+2025-04-09 22:57:46,980 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 22:57:47,606 - __main__ - INFO - Запуск polling...
+2025-04-09 22:58:08,624 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-09 22:58:14,226 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-09 22:58:14,726 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-09 23:00:11,091 - __main__ - INFO - Остановка бота...
+2025-04-09 23:00:11,092 - __main__ - INFO - Бот остановлен.
+2025-04-09 23:00:12,638 - __main__ - INFO - Запуск бота...
+2025-04-09 23:00:12,638 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 23:00:18,307 - __main__ - INFO - Запуск polling...
+2025-04-09 23:00:25,527 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-09 23:00:27,558 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-09 23:00:27,928 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-09 23:12:39,460 - __main__ - INFO - Остановка бота...
+2025-04-09 23:12:39,463 - __main__ - INFO - Бот остановлен.
+2025-04-09 23:12:41,068 - __main__ - INFO - Запуск бота...
+2025-04-09 23:12:41,069 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 23:12:41,716 - __main__ - INFO - Запуск polling...
+2025-04-09 23:12:50,429 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-09 23:12:53,172 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-09 23:12:53,527 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-09 23:18:54,220 - __main__ - INFO - Остановка бота...
+2025-04-09 23:18:54,223 - __main__ - INFO - Бот остановлен.
+2025-04-09 23:18:55,769 - __main__ - INFO - Запуск бота...
+2025-04-09 23:18:55,769 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-09 23:18:56,353 - __main__ - INFO - Запуск polling...
+2025-04-09 23:19:03,271 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-09 23:19:05,541 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-09 23:19:05,915 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-09 23:19:22,943 - app.handlers.process_query - INFO - User 1929408932 ('Aleks79Sib') ввел вопрос: 'Когда заработает бот'. Date: 2025-04-09 18:19:22, ID_Query: q_1929408932_250409181922
+2025-04-09 23:19:22,946 - app.services.google_sheet_api - INFO - Клиент Google Sheets успешно аутентифицирован.
+2025-04-09 23:19:29,869 - app.services.google_sheet_api - INFO - Рабочий лист 'SupportsLog' успешно получен.
+2025-04-09 23:19:30,842 - app.utils.google_sheet_utils - INFO - Получены заголовки из таблицы: ['date', 'user_id', 'user_name', 'query', 'id_query']
+2025-04-09 23:19:31,889 - app.utils.google_sheet_utils - INFO - Запись для пользователя 'Aleks79Sib' (ID: 1929408932) добавлена в лог 'SupportsLog'.
+2025-04-09 23:19:31,889 - app.handlers.process_query - INFO - Вопрос user_id=1929408932 успешно записан в Google Sheets.
+2025-04-09 23:19:32,234 - app.handlers.process_query - INFO - Уведомление об обращении user_id=1929408932 отправлено в чат -4717362837.
+2025-04-09 23:19:32,235 - app.stats.state_manager - INFO - Переход: QuestionStates:waiting_for_question -> QuestionStates:waiting_for_creating_record_request по действию 'next'
+2025-04-09 23:19:32,235 - app.stats.state_manager - INFO - Вход в состояние waiting_for_creating_record_request для user 1929408932
+2025-04-09 23:19:32,236 - app.stats.state_manager - INFO - Для user_name Aleks79Sib,создан question_id q_1929408932_250409181922
+2025-04-09 23:19:32,457 - app.stats.state_manager - INFO - Переход: QuestionStates:waiting_for_creating_record_request -> QuestionStates:finish по действию 'next'
+2025-04-09 23:19:32,457 - app.stats.state_manager - INFO - Вход в состояние finish для user 1929408932. Завершение процесса.
+2025-04-09 23:26:21,559 - __main__ - INFO - Остановка бота...
+2025-04-09 23:26:21,560 - __main__ - INFO - Бот остановлен.
+2025-04-13 09:42:36,898 - __main__ - INFO - Запуск бота...
+2025-04-13 09:42:36,898 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-13 09:42:39,449 - __main__ - INFO - Запуск polling...
+2025-04-13 09:44:11,412 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-13 10:26:17,697 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-13 10:26:20,841 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-13 10:26:21,160 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-13 10:27:13,888 - app.handlers.process_query - INFO - User 1929408932 ('Aleks79Sib') ввел вопрос: 'Хорошо что сделали чат поддержки , спасибо большое, теперь есть куда писать обращение'. Date: 2025-04-13 05:27:13, ID_Query: q_1929408932_250413052713
+2025-04-13 10:27:13,892 - app.services.google_sheet_api - INFO - Клиент Google Sheets успешно аутентифицирован.
+2025-04-13 10:27:17,023 - app.services.google_sheet_api - INFO - Рабочий лист 'SupportsLog' успешно получен.
+2025-04-13 10:27:17,924 - app.utils.google_sheet_utils - INFO - Получены заголовки из таблицы: ['date', 'user_id', 'user_name', 'query', 'id_query']
+2025-04-13 10:27:18,933 - app.utils.google_sheet_utils - INFO - Запись для пользователя 'Aleks79Sib' (ID: 1929408932) добавлена в лог 'SupportsLog'.
+2025-04-13 10:27:18,934 - app.handlers.process_query - INFO - Вопрос user_id=1929408932 успешно записан в Google Sheets.
+2025-04-13 10:27:19,077 - app.handlers.process_query - INFO - Уведомление об обращении user_id=1929408932 отправлено в чат -4717362837.
+2025-04-13 10:27:19,077 - app.stats.state_manager - INFO - Переход: QuestionStates:waiting_for_question -> QuestionStates:waiting_for_creating_record_request по действию 'next'
+2025-04-13 10:27:19,078 - app.stats.state_manager - INFO - Вход в состояние waiting_for_creating_record_request для user 1929408932
+2025-04-13 10:27:19,078 - app.stats.state_manager - INFO - Для user_name Aleks79Sib,создан question_id q_1929408932_250413052713
+2025-04-13 10:27:19,239 - app.stats.state_manager - INFO - Переход: QuestionStates:waiting_for_creating_record_request -> QuestionStates:finish по действию 'next'
+2025-04-13 10:27:19,240 - app.stats.state_manager - INFO - Вход в состояние finish для user 1929408932. Завершение процесса.
+2025-04-13 10:35:27,033 - __main__ - INFO - Остановка бота...
+2025-04-13 10:35:27,035 - __main__ - INFO - Бот остановлен.
+2025-04-13 10:35:28,601 - __main__ - INFO - Запуск бота...
+2025-04-13 10:35:28,601 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-13 10:35:28,989 - __main__ - INFO - Запуск polling...
+2025-04-13 10:35:36,124 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-13 10:35:39,213 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-13 10:35:39,642 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-13 10:36:14,693 - __main__ - INFO - Остановка бота...
+2025-04-13 10:36:14,694 - __main__ - INFO - Бот остановлен.
+2025-04-13 10:36:16,232 - __main__ - INFO - Запуск бота...
+2025-04-13 10:36:16,233 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-13 10:36:16,635 - __main__ - INFO - Запуск polling...
+2025-04-13 10:36:23,744 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-13 10:36:25,596 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-13 10:36:26,035 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-13 10:45:29,039 - __main__ - INFO - Остановка бота...
+2025-04-13 10:45:29,039 - __main__ - INFO - Бот остановлен.
+2025-04-13 10:45:30,548 - __main__ - INFO - Запуск бота...
+2025-04-13 10:45:30,548 - app.handlers.dispatcher - INFO - Все обработчики бота успешно зарегистрированы
+2025-04-13 10:45:30,948 - __main__ - INFO - Запуск polling...
+2025-04-13 10:45:34,270 - app.handlers.common - INFO - Пользователь 1929408932 (Aleks) запустил /start.
+2025-04-13 10:45:42,676 - app.handlers.common - INFO - Пользователь 1929408932 нажал кнопку 'start_query_process'
+2025-04-13 10:45:43,115 - app.stats.state_manager - INFO - Переход: start -> QuestionStates:waiting_for_question по действию 'next'
+2025-04-13 10:46:16,465 - app.handlers.process_query - INFO - User 1929408932 ('Aleks79Sib') ввел вопрос: 'Спасибо, всё хорошо, когда рассмотрите мою заявку'. Date: 2025-04-13 05:46:16, ID_Query: q_1929408932_250413054616
+2025-04-13 10:46:16,467 - app.services.google_sheet_api - INFO - Клиент Google Sheets успешно аутентифицирован.
+2025-04-13 10:46:19,775 - app.services.google_sheet_api - INFO - Рабочий лист 'SupportsLog' успешно получен.
+2025-04-13 10:46:20,677 - app.utils.google_sheet_utils - INFO - Получены заголовки из таблицы: ['date', 'user_id', 'user_name', 'query', 'id_query']
+2025-04-13 10:46:21,131 - app.utils.google_sheet_utils - INFO - Запись для пользователя 'Aleks79Sib' (ID: 1929408932) добавлена в лог 'SupportsLog'.
+2025-04-13 10:46:21,131 - app.handlers.process_query - INFO - Вопрос user_id=1929408932 успешно записан в Google Sheets.
+2025-04-13 10:46:21,274 - app.handlers.process_query - INFO - Уведомление об обращении user_id=1929408932 отправлено в чат -4717362837.
+2025-04-13 10:46:21,275 - app.stats.state_manager - INFO - Переход: QuestionStates:waiting_for_question -> QuestionStates:waiting_for_creating_record_request по действию 'next'
+2025-04-13 10:46:21,275 - app.stats.state_manager - INFO - Вход в состояние waiting_for_creating_record_request для user 1929408932
+2025-04-13 10:46:21,275 - app.stats.state_manager - INFO - Для user_name Aleks79Sib,создан question_id q_1929408932_250413054616
+2025-04-13 10:46:21,422 - app.stats.state_manager - INFO - Переход: QuestionStates:waiting_for_creating_record_request -> QuestionStates:finish по действию 'next'
+2025-04-13 10:46:21,422 - app.stats.state_manager - INFO - Вход в состояние finish для user 1929408932. Завершение процесса.
+2025-04-13 10:54:41,780 - __main__ - INFO - Остановка бота...
+2025-04-13 10:54:41,781 - __main__ - INFO - Бот остановлен.
