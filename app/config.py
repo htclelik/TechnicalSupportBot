@@ -36,6 +36,7 @@ SCOPES_FEED_DRIVE = ["https://spreadsheets.google.com/feeds", "https://www.googl
 SCOPES_CALENDAR = ['https://www.googleapis.com/auth/calendar']
 SUPPORT_LOG_WORKSHEET_NAME = os.getenv("SUPPORT_LOG_WORKSHEET_NAME")
 GOOGLE_SHEET_NAME = os.getenv("GOOGLE_SHEET_NAME")
+GOOGLE_ID_EMAIL = os.getenv("GOOGLE_ID_EMAIL")
 
 
 
