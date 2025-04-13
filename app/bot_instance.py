@@ -1,6 +1,6 @@
 import os
 from aiogram import Bot
-from app.config import TELEGRAM_BOT_TOKEN
+from config import TELEGRAM_BOT_TOKEN
 
 # Используем BOT_TOKEN из твоего config.py
 if not TELEGRAM_BOT_TOKEN:
