@@ -2,7 +2,6 @@
 FROM python:3.12-slim
 LABEL authors="lelik.van-23"
 
-
 # Устанавливаем рабочую директорию (лучше использовать /app)
 WORKDIR /app
 

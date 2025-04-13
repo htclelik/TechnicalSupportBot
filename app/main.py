@@ -4,7 +4,7 @@ import logging
 import sys # Добавь sys для логирования в stdout
 
 # Используем общий экземпляр бота
-from app.bot_instance import bot
+from bot_instance import bot
 from aiogram import Dispatcher, Bot
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import BotCommand
